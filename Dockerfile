@@ -4,7 +4,6 @@ FROM alpine:3.1
 RUN apk add --update nodejs
 
 # Install app dependencies
-MKDIR /src
 COPY package.json /src/package.json
 RUN cd /src; npm install
 
