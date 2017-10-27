@@ -1,6 +1,14 @@
 {
-	"dependencies": {
-		"http": "*",
-		"url": "*"
-	}
+  "name": "mock-layout-server",
+  "description": "This is my awesome app...",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "./start.sh"
+  },
+  "dependencies": {
+    "docker.io": "*",
+    "http": "*",
+    "url": "*"
+  }
 }
